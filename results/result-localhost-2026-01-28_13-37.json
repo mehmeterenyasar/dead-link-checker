@@ -1,0 +1,53 @@
+{
+  "targetUrl": "http://localhost:8080",
+  "linkResults": [
+    {
+      "source": "http://localhost:8080/",
+      "href": "http://localhost:8080/about.html",
+      "text": "About Us (Working internal link - relative)",
+      "status": 200, 
+      "ok": true
+    },
+    {
+      "source": "http://localhost:8080/",
+      "href": "http://localhost:8080/contact.html",
+      "text": "Contact (Working internal link - absolute-ish)",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "http://localhost:8080/",
+      "href": "http://localhost:8080/broken-link.html",
+      "text": "Broken Internal Page (Should return 404)",
+      "status": 404,
+      "ok": false
+    },
+    {
+      "source": "http://localhost:8080/",
+      "href": "https://www.google.com/",
+      "text": "Google (Working external link)",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "http://localhost:8080/",
+      "href": "https://this-domain-should-not-exist-123456.com/",
+      "text": "Broken External Domain (Should fail)",
+      "status": null,
+      "ok": false
+    },
+    {
+      "source": "http://localhost:8080/about.html",
+      "href": "http://localhost:8080/index.html",
+      "text": "Return to Home",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "pagesVisited": [
+    "http://localhost:8080/",
+    "http://localhost:8080/about.html",
+    "http://localhost:8080/contact.html",
+    "http://localhost:8080/broken-link.html"
+  ]
+}

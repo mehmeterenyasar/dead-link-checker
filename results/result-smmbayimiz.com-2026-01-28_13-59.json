@@ -1,0 +1,85 @@
+{
+  "targetUrl": "https://smmbayimiz.com/",
+  "linkResults": [
+    {
+      "source": "https://smmbayimiz.com/",
+      "href": "https://smmbayimiz.com/",
+      "text": "",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/",
+      "href": "https://smmbayimiz.com/services",
+      "text": "Servis Listesi",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/",
+      "href": "https://smmbayimiz.com/api",
+      "text": "API",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/",
+      "href": "https://smmbayimiz.com/signup",
+      "text": "Kayıt Ol",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/",
+      "href": "https://smmbayimiz.com/resetpassword",
+      "text": "Parolanızı mı unuttunuz?",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/services",
+      "href": "https://smmbayimiz.com/tickets",
+      "text": "Yardım",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/services",
+      "href": "https://prnt.sc/xkdZeKsJklHu",
+      "text": "https://prnt.sc/xkdZeKsJklHu",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/services",
+      "href": "https://www.google.com/search?q=https://t.me/Kanal_ID_niz/1",
+      "text": "https://t.me/Kanal_ID_niz/1",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "source": "https://smmbayimiz.com/api",
+      "href": "https://smmbayimiz.com/example.txt",
+      "text": "Example of PHP code",
+      "status": 404,
+      "ok": false
+    },
+    {
+      "source": "https://smmbayimiz.com/signup",
+      "href": "https://smmbayimiz.com/terms",
+      "text": "Üyelik sözleşmesini",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "pagesVisited": [
+    "https://smmbayimiz.com/",
+    "https://smmbayimiz.com/services", 
+    "https://smmbayimiz.com/api",
+    "https://smmbayimiz.com/signup",
+    "https://smmbayimiz.com/resetpassword",
+    "https://smmbayimiz.com/tickets",
+    "https://smmbayimiz.com/example.txt",
+    "https://smmbayimiz.com/terms"
+  ]
+}

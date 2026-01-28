@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dead Link Checker Demo - Home</title></head>
+<body>
+    <h1>Dead Link Checker Demo Suite</h1>
+    <p>This demo site is designed to exercise different link scenarios for the Dead Link Checker CLI.</p>
+    
+    <!-- Working internal link (relative) -->
+    <p><a href="about.html">About Us (Working internal link - relative)</a></p>
+    
+    <!-- Working internal link (absolute-ish) -->
+    <p><a href="./contact.html">Contact (Working internal link - absolute-ish)</a></p>
+    
+    <!-- Broken internal link -->
+    <p><a href="broken-link.html">Broken Internal Page (Should return 404)</a></p> 
+    
+    <!-- Working external link -->
+    <p><a href="https://www.google.com">Google (Working external link)</a></p>
+    
+    <!-- Broken external domain -->
+    <p><a href="https://this-domain-should-not-exist-123456.com">Broken External Domain (Should fail)</a></p>
+    
+    <!-- Skipped links -->
+    <p><a href="mailto:test@example.com">Send Email (Should be skipped)</a></p>
+    <p><a href="javascript:void(0)">JavaScript Link (Should be skipped)</a></p>
+</body>
+</html>
