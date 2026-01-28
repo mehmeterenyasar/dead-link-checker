@@ -172,10 +172,3 @@ Tests focus on the core URL logic and are a good place to add more edge cases.
 This project is released under the **MIT License**.  
 You can use it in personal or commercial projects. Just keep the license file.
 
-
-Bunu kopyalayıp kaydettikten sonra son push işlemini yapabilirsin:
-
-```bash
-git add README.md
-git commit -m "Docs: Update README with project background and real badges"
-git push
